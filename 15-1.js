@@ -20,7 +20,7 @@ assert.equal(fib(0),0);
 assert.equal(fib(1),1);
 assert.equal(fib(6),8);
 assert.equal(fib(12),144);
-function fib(nTh) {
+function fib(nTh) { // O(n)
     var fibArray = [0,1],
         sum = 0;
     if (nTh === 0 || nTh === 1) {
